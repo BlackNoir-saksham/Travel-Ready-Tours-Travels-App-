@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    
+
+    <title>Tour & Travels - Customize your Experience</title>
+  </head>
+  <body id="abc">   
+    
+    {{>navbar}}
+
+    <section class="backgrounds firstSection">
+      <div class="box-main">
+        <div class="firstHalf">
+          <p class="text-big">Pack your Bags!</p>
+          <p class="text-small">
+            We are going on vacation. Now you can plan your dream vacation at
+            very affordable rates.
+          </p>
+          <div class="buttons">
+            <button class="btn-1">Subscribe</button>
+            <button class="btn-1">Watch Video</button>
+          </div>
+          <div class="pics">
+            <img src="Images/usa.jpg" alt="logo" />
+            <img src="Images/dubai.jfif" alt="logo" />
+            <img src="Images/mauritious.jpg" alt="logo" />
+            <img src="Images/rajasthan.jpg" alt="logo" />
+            <img src="Images/paris2.jpg" alt="logo" />
+          </div>
+        </div>
+      </div>
+    </section>
+    {{>description}}
+    
+    {{>contactForm}}   
+    {{!-- to put header.hbs file as a component like react  --}}
+    
+  </body>
+</html>
